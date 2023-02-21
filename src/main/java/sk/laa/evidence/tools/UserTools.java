@@ -84,12 +84,12 @@ public class UserTools {
         System.out.println("List pouzivatelov: ");
         for (String i : (userLogin.keySet())) {
             String j = userLogin.get(i);
-            System.out.printf("=-\tUsername: %s , Password : %s\t-=\n", i, j);
+            System.out.printf("=-\tUsername: %s , Password: %s\t-=\n", i, j);
         }
         System.out.println("List administratorov: ");
         for (String i : (adminLogin.keySet())) {
             String j = adminLogin.get(i);
-            System.out.printf("=-\tUsername: %s , Password : %s\t-=\n", i, j);
+            System.out.printf("=-\tUsername: %s , Password: %s\t-=\n", i, j);
         }
     }
 

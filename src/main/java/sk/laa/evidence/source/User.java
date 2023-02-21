@@ -10,6 +10,8 @@ public @AllArgsConstructor
 
     @Override
     public String toString() {
-        return String.format("%S,\t  heslo: %s", userName, userPassword);
+        String tableForm = "Username: %-10s ; Password: %-12s";
+        return String.format(tableForm, userName, userPassword);
     }
+
 }
