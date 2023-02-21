@@ -15,6 +15,7 @@ public @AllArgsConstructor
 
     @Override
     public String toString() {
-        return String.format("%S %S,\t\t\t  pohlavie: %s,\t vek: %d,\t email: %s,\t tel: %d", name, surname, gender, age, email, tel);
+        String tableForm = "%-10S %-12S ; pohlavie: %-5s ; vek: %-3d ; email: %-17s ; tel: %-15d";
+        return String.format(tableForm, name, surname, gender, age, email, tel);
     }
 }
